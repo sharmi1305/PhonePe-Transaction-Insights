@@ -352,4 +352,5 @@ if section == "Case Study Insights":
         st.plotly_chart(px.bar(df_districts, x="Districts", y="Count", title="Insurance Transactions by District", color="Districts", color_discrete_sequence=px.colors.sequential.Greens))
         st.plotly_chart(px.pie(df_districts, names="Districts", values="Amount", title="Insurance Value Distribution by District"))
 
+
     st.markdown("<hr><p style='text-align:center; font-size: 14px;'>Created by Sharmila • Streamlit + MySQL + Plotly</p>", unsafe_allow_html=True)
